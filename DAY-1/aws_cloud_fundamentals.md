@@ -106,7 +106,7 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 ---
 
 ## WHY AWS?
-**Amazon Web Services (AWS) is chosen by millions of business because it provides secure, scalable, and cost-effective cloud computing without the need to buy physical hardware.
+**Amazon Web Services (AWS)** is chosen by millions of business because it provides secure, scalable, and cost-effective cloud computing without the need to buy physical hardware.
 
 **Key Benefits of AWS**
 - **Pay-As-You-Go Pricing:** You only pay for the exact computing resources you use, avoiding big upfront costs or long-term contracts.
