@@ -15,13 +15,13 @@ Cloud Computing is the on demand of computing services such as databases, storag
 **How IaaS Works**
 - **Virtualization:** Providers use hypervisors to split physical servers into independent virtual machines (VMs).
 - **On-Demand Access:** Users control resources through a dashboard or API without maintaining physical hardware.
-- **Pay-As-You-Go: Organizations pay only for the compute time and storage space they consume.
+- **Pay-As-You-Go:** Organizations pay only for the compute time and storage space they consume.
 
 **PROS**
 - **Cost Efficiency:** Eliminates the massive upfront capital expenses (CapEx) of purchasing hardware, converting IT spending into a predictable, operational expenses (OpEx).
 - **Rapid Scalability:** Allows business to scale compute power and storage up or down instantly to meet fluctuating demand.
-- **High availability: Features built-in redundancy, automated backups, and disaster revovery across global data centers to minimize downtime.
-- **Reduced maintenance: Shifts the burden of physical hardware maintenance, cooling, and facility security to the vendor.
+- **High availability:** Features built-in redundancy, automated backups, and disaster revovery across global data centers to minimize downtime.
+- **Reduced maintenance:** Shifts the burden of physical hardware maintenance, cooling, and facility security to the vendor.
 
 **CONS**
 - **Security complexities:** While the provider secures the hardware, the user is entirely responsible for securing their own operating systems, data, and applications.
@@ -101,7 +101,7 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 - **Cold Starts:** When a function hasn't been used recently, the provider must boot up a new container, which can introduce a noticeable latency delay on the first request.
 - **Vendor Lock-In:** Migrating your functions from one cloud provider to another can be difficult because each platform uses proprietary triggers, APIs, and configurations.
 - **Harder Debugging and Monitoring:** Distributed, short-lived containers make tracking errors and logging requests across multiple chained functions more complex than inspecting a traditional server.
-- Stateless Limitations:** Functions cannot reliably store local data between runs, meaning you must configure external databases or caches for session and state management.
+- **Stateless Limitations:** Functions cannot reliably store local data between runs, meaning you must configure external databases or caches for session and state management.
 
 ---
 
@@ -121,19 +121,19 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 
 **Key Concepts**
 - **Region:** A physical location in the world with multiple availability zones. Regions are completely independent and isolated from each other to guarantee fault tolerance.
-- **Availability Zone (AZ): One or more discrete data centers inside a region. Each has independent power, cooling, and networking. They connect using high-speed, low-latency links.
+- **Availability Zone (AZ):** One or more discrete data centers inside a region. Each has independent power, cooling, and networking. They connect using high-speed, low-latency links.
 - **Edge Location:** A site used to cache content and lower latency for end users.
 
 **Why Regions Matter**
 - **Performance:** Pick a region close to your users to reduce network delay.
 - **Compliance:** Keep data inside specific geographic borders to meet local privacy laws.
 - **Availability:** Copy your data across multiple availability zones or regions to survive or power failures.
-**AWS Availability Zone (AZ) is one or more discrete data centers with redundant power, networking, and connectivity located inside an **AWS Region**
+**AWS Availability Zone (AZ)** is one or more discrete data centers with redundant power, networking, and connectivity located inside an **AWS Region**
 
 **Key Features**
 - **Isolation:** AZs are physically separated by a meaningful distance (Many kilometers, up to 60 miles or 100 km) to prevent a single local disaster or outage from affecting multiple zones.
 - **Redundancy:** Each AZ has independent power sources, cooling equipment, and backup generators supplied by separate local substations.
-- Connectivity: AZs within the same region connect via high-bandwidth, low-latency networking over dedicated, fully encrypted fiber-optic links.
+- **Connectivity:** AZs within the same region connect via high-bandwidth, low-latency networking over dedicated, fully encrypted fiber-optic links.
 - **Naming:** Each AZ is identified by a region code followed by a letter e.g. us-east-1a, us-east-1b and us-east-1c.
 
 **Why Use Availability Zones**
@@ -150,7 +150,7 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 **Multi-Region:** Cross-region replication e.g. DynamoDB Global, S3 CRR, Aurora Global.
 
 ## What is VPC & Why Does it Matter?
-**VPC (Virtual Private Cloud) is an isolated private network inside AWS. Is like having a secure building in a massive cloud city. Without VPC, your resources would be exposed to everyone
+**VPC (Virtual Private Cloud)** is an isolated private network inside AWS. Is like having a secure building in a massive cloud city. Without VPC, your resources would be exposed to everyone
 
 **VPC features**
 - **Isolation:** Your resources are logically isolated from other AWS customers.
