@@ -143,13 +143,13 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 
 **The AWS GLOBAL INFRASTRUCTURE spans 39 geographic regions and 124 availability zones worldwide.**
 
-## Where do AWS Services live?
+## WHERE DO AWS SERVICES LIVE?
 **Global:** Not tied to any region e.g. IAM, Route 53, Cloudfront, WAF.
 **Regional:** Operate within a region e.g. VPC, S3, EFS, DynamoDB, Lambda, SNS.
 **AZ-Specific:** Run in specific AZs e.g. EC2, RDS, EBS, Subnet, NAT Gateway.
 **Multi-Region:** Cross-region replication e.g. DynamoDB Global, S3 CRR, Aurora Global.
 
-## What is VPC & Why Does it Matter?
+## WHAT IS VPC & WHY DOES IT MATTER?
 **VPC (Virtual Private Cloud)** is an isolated private network inside AWS. Is like having a secure building in a massive cloud city. Without VPC, your resources would be exposed to everyone
 
 **VPC features**
