@@ -1,5 +1,6 @@
----
 # DAY 1
+
+---
 
 ## WHAT IS CLOUD COMPUTING
 Cloud Computing is the on demand of computing services such as databases, storages, networking with pay-as-you-go pricing. 
@@ -29,6 +30,8 @@ Cloud Computing is the on demand of computing services such as databases, storag
 - **Vendor lock-in:** Migrating massive workloads or specialized configurations from one IaaS provider to another can be technically complex and expensive.
 - **Limited control:** Users have no control over the underlying physical hardware, virtualization layer, or sudden vendor maintenance schedules.
 
+---
+
 ### PaaS (Platform as a Service)
 **PaaS** is a Cloud Service Model that let you build and run apps with managing underlying hardware or operating systems.
 
@@ -56,6 +59,8 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 - **Less control:** Limits deep customization of the underlying hardware or operating system.
 - **Integration challenges:** Can make connecting with older, on-premise legacy systems difficult.
 - **Higher costs at scale:** Can become more expensive than basic Infrastructure-as-a-Service (IaaS) when handling massive, steady volumes of traffic.
+
+---
   
 ### SaaS (Software as a Service)
 **Saas** is a cloud computing model where a third-party provider hosts applications and delivers them to users over the internet, typically through a web browser on a subscription basis. In other words, SaaS is a finish product/service ready to be serve or consume. e.g Gmail, AWS Cloud, LinkedIn, GitHub etc.
@@ -81,6 +86,8 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 - **Security & privacy:** Storing sensitive data off-site creates exposure to potential data breaches or privacy regulations.
 - **Recurring costs:** Long-term subscription fees can accumulate and end up costing more over time than a one-time purchase.
 - **Vendor lock-in:** Switching to a different software provider or moving data off a proprietary platform can be difficult.
+
+---
 
 ### FaaS (Funtion as a Service)
 **FaaS** or serverless computing, is a cloud service model where developers write individual pieces of code or functions that ring in response to specific events, without needing to manage any underlying server infrastructure. E.g. AWS Lambda, GCP Functions, and Microsoft Azure Functions.
@@ -115,6 +122,7 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 - **Security:** AWS offers advanced tools and isolated networks designed to protect sensitive government and financial data.
 - **Broad Service Selection:** AWS provides over 200 fully featured services, from basic virtual servers to artificial intelligence and machine learning.
 
+---
 
 ## AWS REGION AND AVAILABILITY ZONES
 **AWS Regions** are separate geographic areas that house Amazon Web Services data centers.
@@ -142,6 +150,8 @@ PaaS acts as a layer siting on top of basis cloud infrastructure.
 - **Synchronous Replication:** Low latency between zones (single-digit miliseconds) allows for real-time, synchronous data replication.
 
 **The AWS GLOBAL INFRASTRUCTURE spans 39 geographic regions and 124 availability zones worldwide.**
+
+---
 
 ## WHERE DO AWS SERVICES LIVE?   
 **Global:** Not tied to any region e.g. IAM, Route 53, Cloudfront, WAF.   
