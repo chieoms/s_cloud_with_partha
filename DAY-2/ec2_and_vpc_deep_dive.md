@@ -1,7 +1,7 @@
 # DAY 2 - EC2 & VPC DEEP DIVE  
 
 ## NAVIGATION 
-**[DAY 1](../DAY-1/aws_cloud_fundamentals.md)**
+**[DAY 1](../DAY-1/aws_cloud_fundamentals.md)**   
 **[HOME](../README.md)**   
 
 ## WHAT DOES A VIRTUAL MACHINE NEED?
@@ -210,5 +210,5 @@ Ensure the following tools are installed on your local machine:
    
    
 ## NAVIGATION 
-**[DAY 1](../DAY-1/aws_cloud_fundamentals.md)**
+**[DAY 1](../DAY-1/aws_cloud_fundamentals.md)**   
 **[HOME](../README.md)** 
