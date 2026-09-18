@@ -1,0 +1,8 @@
+DAY-2/project-infrastructure/.ssh_keys
+DAY-2/project-infrastructure/logs
+DAY-2/project-infrastructure/.terraform
+DAY-2/project-infrastructure/.terraform.tfstate.lock.info
+DAY-2/project-infrastructure/terraform.tfstate
+DAY-2/project-infrastructure/terraform.tfstate.backup
+DAY-2/py_modules/__pycache__
+DAY-2/.lab_servers_output.json

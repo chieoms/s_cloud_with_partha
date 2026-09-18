@@ -1,6 +1,8 @@
-# DAY 1
+# DAY 1 - MASTER AWS CLOUD FUNDAMENTALS
 
----
+## NAVIGATION
+**[HOME](../README.md)**    
+**[DAY 2](../DAY-2/ec2_and_vpc_deep_dive.md)**
 
 ## WHAT IS CLOUD COMPUTING
 Cloud Computing is the on demand of computing services such as databases, storages, networking with pay-as-you-go pricing. 
@@ -184,4 +186,6 @@ Who can enter - who can go out - How traffic flows
 - No network boundaries of rules
 - Security depends on each resource
 
----
+## NAVIGATION
+**[HOME](../README.md)**    
+**[DAY 2](../DAY-2/ec2_and_vpc_deep_dive.md)**
