@@ -1,8 +1,8 @@
-# DAY 2 - EC2 & VPC DEEP DIVE  
-
-## NAVIGATION 
+# NAVIGATION 
 **[DAY 1](../DAY-1/aws_cloud_fundamentals.md)**   
-**[HOME](../README.md)**   
+**[HOME](../README.md)**
+
+# DAY 2 - EC2 & VPC DEEP DIVE     
 
 ## WHAT DOES A VIRTUAL MACHINE NEED?
 ### CPU
@@ -206,9 +206,7 @@ Ensure the following tools are installed on your local machine:
 ![SSM Session](./images/ssm_session.png)  
    
 # checkip.amazonaws.com inside lab-app returns the NAT Gateway Elastic IP.
-![NAT and DNF Package accesss](./images/nat_and_package_access.png)
+![NAT and DNF Package accesss](./images/nat_and_package_access.png)  
    
    
-## NAVIGATION 
-**[DAY 1](../DAY-1/aws_cloud_fundamentals.md)**   
-**[HOME](../README.md)** 
+## [DAY 3](../DAY-3/aws_traffic_flow_visualization.md)

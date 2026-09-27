@@ -186,6 +186,5 @@ Who can enter - who can go out - How traffic flows
 - No network boundaries of rules
 - Security depends on each resource
 
-## NAVIGATION
-**[HOME](../README.md)**    
-**[DAY 2](../DAY-2/ec2_and_vpc_deep_dive.md)**
+   
+## [DAY 2](../DAY-2/ec2_and_vpc_deep_dive.md)
