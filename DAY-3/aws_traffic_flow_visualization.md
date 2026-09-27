@@ -4,8 +4,12 @@
 
 # AWS TRAFFIC FLOW VISUALIZATION
 
+---
+
 ## Private Subnet Traffic Flow
 ![Private subnet traffic flow](./images/cwp_day3_private_subnet_traffic_flow.png)
+
+---
 
 ### AOC: Subnet Network Access Control List (NACL)
 ![NACL](./images/cwp_day3_aoc_nacl.png)
@@ -30,11 +34,12 @@ A subnet NACL (Network Access Control List) is a virtual firewall that controls 
 **How It Works With Security Groups**    
 - NACLs act as the first outer checkpoint guarding the entire subnet border.
 - Security Groups act as the inner shield attached directly to individual server instances.
+
+---
     
 ## NAT Gateway Architecture Evolution
 ![NAT Gateway Architecture Evolution](./images/cwp_day3_zonal_nat_legacy.png)
-
-### 
+   
 | Traditional NAT | Regional NAT |
 | --------------- | ------------ |
 | NAT is zonal | NAT is regional |
@@ -44,12 +49,17 @@ A subnet NACL (Network Access Control List) is a virtual firewall that controls 
 | Mannual expansion to new AZs | AWS automatically expands |
 | More NAT Gateways/EIPs | Auto-scales bandwith |
 
+---
+
 ## Public Subnet Traffic Flow
 ![Public Subnet Traffic Flow](./images/cwp_day3_public_subnet_traffic_flow.png)
 
-## Accessing Private Subnet EC2 (Bastion Host)
-[Bastion Host](./images/cwp_day3_bastion_host.png)
+---
 
+## Accessing Private Subnet EC2 (Bastion Host)
+![Bastion Host](./images/cwp_day3_bastion_host.png)
+
+---
 
 ## Source
 - [DAY 3](https://learn.cloudwithpartha.com/day-3)
